@@ -1,0 +1,55 @@
+body {
+     background-color: beige;
+}
+
+
+.tittle {
+    font-size: 1.8em;
+    color: brown;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+}
+
+.cards {
+    border: 2px solid black;
+    width: fit-content;
+    padding: 2em 1em 2em 1em;
+    border-radius: 10%;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+}
+
+.cards:hover {
+    background-color: coral;
+}
+
+#principal {
+    font-size: 4em;
+}
+
+#titulos {
+    width: 60vw;
+    margin: auto;
+    padding: 3em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#cards-container {
+    width: 90vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 5px solid rgb(112, 112, 112);
+    border-radius: 15px;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

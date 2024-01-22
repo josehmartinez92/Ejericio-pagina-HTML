@@ -3,29 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./styles.css" />
+
     <title>Document</title>
 </head>
 <body>
 
     <header>
-        <h1>Portal de noticias del Real Madrid</h1>
-
-        <span>HOME</span>
-        <span>NOTICIAS</span>
-        <span>CALENDARIO</span>  
+        <div id="titulos"> 
+            <h1 class="tittle" id="principal">Portal de noticias del Real Madrid</h1>
+            <span>HOME</span>
+            <span>NOTICIAS</span>
+            <span>CALENDARIO</span>  
+        </div> 
     </header> 
 
     <main>
+        <div class="cards">
+            <img src="./Real Madrid CF, Madrid, Spain.jpeg" class="logo" />
+        </div>
 
-        <img src="./Real Madrid CF, Madrid, Spain.jpeg"/>
-
+        <article>
         <section>
-            <h2>Acá podrás encontrar todas las noticias del Real Madrid</h2>
+            <h2 class="tittle">Acá podrás encontrar todas las noticias del Real Madrid</h2>
+        </article>
 
             <article>
+                <div id="cards-container">
 
-                <h3>Noticia N°1</h3>
-                <div>
+                    <div class="cards">
+
+                        <h3 class="tittle">Noticia N°1</h3>
+
+                        <img src="./Supercopa_de_España_Logo.png" class="logo" />
+                    
                     <p>El Real Madrid es Super Campeon de la supercopa de españa al vencer 
                         por goleada al FC Barcelona 4-1. Un verdadero espectáculo el que ofreció 
                         el Real Madrid el de ayer en el estadio Al-Awwal Park en Arabia Saudita.
@@ -33,38 +45,45 @@
                         Los merengues llegan así a su título  N°14 de la super copa y estan solo 
                         a 1 título de empatar a su máximo rival.
                     </p>
+                    </div>
+    
+                     <hr />
+
+                    <div class="cards">
+
+                        <h3 class="tittle">Noticia N°2</h3>
+                        <img src="./Logos-Sanitas-transparente-blanco.png" class="logo" />
+               
+                    <p>Listado de jugadores lesionados del Real Madrid en esta temporada:</p>
+                    </div>
+                
+
+                    <ol>
+                         <li>Thibaut Courtois</li>
+                         <li>Eder Militao</li>
+                         <li>David Alaba</li>
+                         <li>Arda Guler</li>
+                         <li>Lucas Vazquéz</li>
+                    </ol>
+
+                     <hr />
+
+           
+                    <div class="cards">
+                        <h3 class="tittle">Noticia N°3</h3>
+                        <img src="./calemndario-del-real-madrid-mes-de-febrero.jpeg" class="logo" />
+                    </div>    
+                    
+                        <p>Proximos partidos del Real Madrid:</p>
+
+                
+
+                    <ul>
+                        <li>Atletico De Madrid vs Real Madrid Copa del Rey 8vos (V)</li>
+                        <li>Real Madrid vs UD Almeria LaLiga fecha 20 (L)</li>
+                        <li>Real Madrid vs Girona LaLiga fecha 21 (L)</li>
+                    </ul>
                 </div>
-    
-
-            </article>
-            <hr />
-            <article>
-
-                <h3>Noticia N°2</h3>
-                <p>Listado de jugadores lesionados del Real Madrid en esta temporada:</p>
-
-                <ol>
-                    <li>Thibaut Courtois</li>
-                    <li>Eder Militao</li>
-                    <li>David Alaba</li>
-                    <li>Arda Guler</li>
-                    <li>Lucas Vazquéz</li>
-                </ol>
-
-            </article>
-            <hr />
-
-            <article>
-    
-                <h3>Noticia N°3</h3>
-                <p>Proximos partidos del Real Madrid:</p>
-
-                <ul>
-                    <li>Atletico De Madrid vs Real Madrid Copa del Rey 8vos (V)</li>
-                    <li>Real Madrid vs UD Almeria LaLiga fecha 20 (L)</li>
-                    <li>Real Madrid vs Girona LaLiga fecha 21 (L)</li>
-                </ul>
-
             </article>
         </section>
 
@@ -75,8 +94,7 @@
 
     </footer>
     
-
-
+    
 
     </body>
     </html> 
